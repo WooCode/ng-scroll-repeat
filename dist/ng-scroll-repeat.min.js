@@ -1,5 +1,5 @@
 /*
-Angular Scroll Repeat v0.0.5 by @kstam
+Angular Scroll Repeat v0.0.6 by @kstam
 Copyright (c) 2014
 
 Full source at https://github.com/kstam/ng-scroll-repeat
