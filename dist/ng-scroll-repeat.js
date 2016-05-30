@@ -1,5 +1,5 @@
 /*
-Angular Scroll Repeat v0.0.6 by @kstam
+Angular Scroll Repeat v0.0.7 by @kstam
 Copyright (c) 2014
 
 Full source at https://github.com/kstam/ng-scroll-repeat
@@ -108,7 +108,9 @@ MIT License, https://github.com/kstam/ng-scroll-repeat/blob/master/LICENSE
                 height: function () {
                     return windowElement.height();
                 },
-                scrollTop: windowElement.scrollTop,
+                scrollTop: function () {
+                    return windowElement.scrollTop();
+                },
                 registerForScroll: function ($scope) {
                     if ($scope && angular.isFunction($scope.$broadcast)) {
                         listeners.push($scope);
